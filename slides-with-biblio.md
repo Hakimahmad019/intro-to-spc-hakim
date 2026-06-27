@@ -250,5 +250,103 @@ Process requires intervention/centering.
 ::::
 
 ---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 13
+T-Test Visualization
+(P=100, T=303)
+
+**Visual Indicators:**
+- Red areas: Rejection region
+- Dashed line: Observed $t$-statistic
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_p100.png)
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 14
+Statistical Metrics
+(P=100, T=303)
+
+**Test Results:**
+- $t$-statistic: -3.0903
+- $p$-value: 0.0026
+- $df$: 98
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_p100.png)
+::: 
+::::
+
+---
+
+### Slide 15
+Condition Assessment
+
+**Question:** Is there a true difference between Machine 1 and Machine 2 at P=100, T=303?
+
+**Decision ($lpha=0.05$):**
+- **Output: Yes**
+
+*Note: Result based on independent two-sample t-test comparing measurements.*
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 16
+T-Test Visualization
+(P=300, T=373)
+
+**Visual Indicators:**
+- Red areas: Rejection region
+- Dashed line: Observed $t$-statistic
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_p300.png)
+::: 
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 17
+Statistical Metrics
+(P=300, T=373)
+
+**Test Results:**
+- $t$-statistic: -0.3739
+- $p$-value: 0.7093
+- $df$: 98
+:::
+
+::: {.column width="50%"}
+![](media/pics/ttest_p300.png)
+::: 
+::::
+
+---
+
+### Slide 18
+Condition Assessment
+
+**Question:** Is there a true difference between Machine 1 and Machine 2 at P=300, T=373?
+
+**Decision ($lpha=0.05$):**
+- **Output: No**
+
+*Note: Result based on independent two-sample t-test comparing measurements.*
+
+---
 # Bibliography
 <div id="refs"></div>
