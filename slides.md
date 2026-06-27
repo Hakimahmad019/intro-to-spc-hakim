@@ -307,3 +307,57 @@ Condition Assessment
 - **Output: No**
 
 *Note: Result based on independent two-sample t-test comparing measurements.*
+
+---
+
+### Slide 19
+Factor Analysis: Pressure (P)
+
+**ANOVA Results:**
+- Source: Pressure (Factor P)
+- Prob > F: 4.5182e-59
+- **Significant: Yes**
+
+Evaluation: The changes in Pressure levels have a statistically significant effect on Machine 1's Part Resistance.
+
+---
+
+### Slide 20
+Factor Analysis: Temperature (T)
+
+**ANOVA Results:**
+- Source: Temperature (Factor T)
+- Prob > F: 3.5601e-33
+- **Significant: Yes**
+
+Evaluation: The changes in Temperature levels have a statistically significant effect on Machine 1's Part Resistance.
+
+---
+
+### Slide 21
+Factor Analysis: Interaction (P*T)
+
+**ANOVA Results:**
+- Source: P &times; T Interaction
+- Prob > F: 1.2528e-03
+- **Significant: Yes**
+
+Evaluation: Is the interaction between P and T significant? **Yes**.
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Slide 22
+Interaction Plot
+
+**Key Observations:**
+- Non-parallel lines indicate potential interaction.
+- Resistance increases as both factors increase.
+- This plot visualizes how Pressure levels behave across different Temperature settings.
+:::
+
+::: {.column width="50%"}
+![](media/pics/m1_interaction.png)
+::: 
+::::
